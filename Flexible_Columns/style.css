@@ -7,19 +7,28 @@
     flex-direction: column;
     margin: 5px;
     background-color:cornflowerblue;
-    height: 30px;
+    height: 50px;
+    padding-top: 25px;
+    padding-left: 10px;
+    justify-content: center;
 }
 .col-2 {
     flex: 2;
     flex-direction: column;
     margin: 5px;
     background-color: cornflowerblue;
-    height: 30px;
+    height: 50px;
+    padding-top: 25px;
+    padding-left: 10px;
+    justify-content: center;
 }
 .col-3 {
     flex: 3;
     flex-direction: column;
     margin: 5px;
     background-color: cornflowerblue;
-    height: 30px;
+    height: 50px;
+    padding-top: 25px;
+    padding-left: 10px;
+    justify-content: center;
 }
