@@ -1,0 +1,71 @@
+.page {
+    display: flex;
+    width: 100%;
+    height:800px;
+}
+.col1 {
+    min-width:50vw;
+    max-width:70vw;
+    height:40%;
+    justify-content:center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+.col2 {
+    flex-flow: column wrap;
+    border-color:midnightblue;
+    border-width: 0.5em;
+    border-style: solid;
+    width:70vw;
+}
+.row1 {
+    background-color: rgb(71, 67, 124);
+    height: 5em;
+    width: auto;
+}
+.row2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-bottom: 5vw;
+}
+.location {
+    flex-direction: row;
+    flex: 2;
+}
+.loc1 {
+    display: inline-flex;
+    flex:1;
+}
+.loc2 {
+    display: inline-flex;
+    flex:7;
+    margin-left: -1.5em;
+}
+.skills {
+    flex-direction: row;
+    flex: 2;
+    align-items: center;
+}
+.edit {
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+}
+#pin {
+    height: 30%;
+    width: 30%;
+}
+#gear {
+    height:20px;
+    width:20px;
+}
+#profilepic {
+    margin-top: -3em;
+    padding-left: 2em;
+    height: 6em;
+    width: 6em;
+}
+.upadj {
+    margin-top: -20px;
+}
